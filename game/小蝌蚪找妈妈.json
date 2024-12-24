@@ -1,0 +1,81 @@
+{
+    "game": {
+        "title": "小蝌蚪找妈妈",
+        "background": "一群小蝌蚪出生在池塘中，他们正在寻找妈妈在哪里。你将扮演小蝌蚪，在池塘里找到妈妈。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "出生",
+                "scenes": [
+                    {
+                        "sceneId": 1,
+                        "description": "刚出生的小蝌蚪们遇到了金鱼",
+                        "npcs": [
+                            "金鱼"
+                        ],
+                        "start_dialogues": [
+                            {
+                                "speaker": "系统",
+                                "text": "你们刚出生，你发现旁边只有你的兄弟姐妹，妈妈不在身边，你们想要找到妈妈，你们看到了一只漂亮的金鱼，她是不是你们的妈妈呢。",
+                                "options": []
+                            }
+                        ],
+                        "end_dialogues": [
+                            {
+                                "speaker": "系统",
+                                "text": "金鱼不是你们的妈妈，你们又踏上了寻找妈妈的旅程。",
+                                "options": []
+                            }
+                        ],
+                        "target": "确认金鱼不是自己的妈妈"
+                    }
+                ]
+            },
+            {
+                "episodeNumber": 2,
+                "title": "出生",
+                "scenes": [
+                    {
+                        "sceneId": 1,
+                        "description": "刚确认完金鱼不是自己的妈妈",
+                        "npcs": [
+                            "青蛙"
+                        ],
+                        "start_dialogues": [
+                            {
+                                "speaker": "系统",
+                                "text": "小蝌蚪们往前游啊游，看到了青蛙，她是我们的妈妈吗。",
+                                "options": []
+                            }
+                        ],
+                        "end_dialogues": [
+                            {
+                                "speaker": "系统",
+                                "text": "你们找到了妈妈，恭喜你们！",
+                                "options": []
+                            }
+                        ],
+                        "target": "确定青蛙是自己的妈妈"
+                    }
+                ]
+            }
+        ],
+        "npcs": [
+            {
+                "name": "金鱼",
+                "description": "一只漂亮的金鱼",
+                "traits": "性格冷淡,尖酸刻薄",
+                "backstory": "我不是小蝌蚪的妈妈"
+            },
+            {
+                "name": "青蛙",
+                "description": "小蝌蚪的妈妈",
+                "traits": "热情",
+                "backstory": "我是小蝌蚪的妈妈"
+            }
+        ],
+        "player": {
+            "name": "小蝌蚪"
+        }
+    }
+}
